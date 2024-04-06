@@ -1,0 +1,27 @@
+{"level":"error","message":"operationName is not defined","service":"calculator-microservice"}
+{"level":"info","message":"New undefined operation requested: 10 undefined 5","service":"calculator_microservice"}
+{"level":"info","message":"Handling request","query":{"num1":"10","num2":"5"},"route":"/add","service":"calculator_microservice"}
+{"level":"error","message":"num1 is not defined","service":"calculator_microservice"}
+{"level":"info","message":"New add operation requested: 10 add 5","service":"calculator_microservice"}
+{"level":"info","message":"Handling request","query":{"num1":"10","num2":"5"},"route":"/add","service":"calculator_microservice"}
+{"level":"error","message":"num1 is not defined","service":"calculator_microservice"}
+{"level":"info","message":"New add operation requested: 10 add 5","service":"calculator_microservice"}
+{"level":"info","message":"Handling request","query":{"num1":"10","num2":"5"},"route":"/add","service":"calculator_microservice"}
+{"level":"error","message":"num1 is not defined","service":"calculator_microservice"}
+{"level":"info","message":"New add operation requested: 10 add 5","service":"calculator_microservice"}
+{"level":"info","message":"Handling request","query":{"num1":"10","num2":"5"},"route":"/add","service":"calculator_microservice"}
+{"level":"error","message":"num1 is not defined","service":"calculator_microservice"}
+{"level":"info","message":"New add operation requested: 10 add 5","service":"calculator_microservice"}
+{"level":"info","message":"Handling request","query":{"num1":"10","num2":"5"},"route":"/add","service":"calculator_microservice"}
+{"level":"error","message":"num1 is not defined","service":"calculator_microservice"}
+{"level":"info","message":"New add operation requested: 10 add 5","service":"calculator_microservice"}
+{"level":"info","message":"Handling request","query":{"num1":"10","num2":"5"},"route":"/add","service":"calculator_microservice"}
+{"level":"info","message":"Operation successful: 10 add 5 = 15","service":"calculator_microservice"}
+{"level":"info","message":"New subtract operation requested: 100 subtract 5","service":"calculator_microservice"}
+{"level":"info","message":"Handling request","query":{"num1":"100","num2":"5"},"route":"/subtract","service":"calculator_microservice"}
+{"level":"info","message":"Operation successful: 100 subtract 5 = 95","service":"calculator_microservice"}
+{"headers":{"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US,en;q=0.9","connection":"keep-alive","cookie":"username-localhost-8888=\"2|1:0|10:1711981909|23:username-localhost-8888|44:Y2EzY2ZhNGVmMWJmNDIwNWEyMWZhZmRiMzYzNjUxNzU=|d8f91bef1600acdff3975c7aeae08e4decee7778482789098de574da40e938b0\"; _xsrf=2|be4d1621|59c7b53341349b643536bb620a824000|1711981909","host":"localhost:3000","sec-ch-ua":"\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","sec-fetch-dest":"document","sec-fetch-mode":"navigate","sec-fetch-site":"none","sec-fetch-user":"?1","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"},"ip":"::1","level":"info","message":"Incoming request GET /subtract?num1=120&num2=12","method":"GET","service":"calculator_microservice","url":"/subtract?num1=120&num2=12"}
+{"level":"info","message":"New subtract operation requested: 120 subtract 12","service":"calculator_microservice"}
+{"level":"info","message":"Handling request","query":{"num1":"120","num2":"12"},"route":"/subtract","service":"calculator_microservice"}
+{"level":"info","message":"Operation successful: 120 subtract 12 = 108","service":"calculator_microservice"}
+{"level":"info","message":"Response for GET /subtract?num1=120&num2=12","responseBody":"{\"statuscode\":200,\"data\":108}","responseStatus":200,"service":"calculator_microservice"}
